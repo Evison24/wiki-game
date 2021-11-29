@@ -1,0 +1,25 @@
+/* .mainPageContainer{
+  
+} */
+
+.mainPageContainer h1 {
+  padding-left: 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  opacity: 0.9;
+  
+}
+
+.mainPageContainer .mainPageContent{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+}
+
+.mainPageContainer .mainPageContent .title{
+  background-color: red;
+}
+
+
+

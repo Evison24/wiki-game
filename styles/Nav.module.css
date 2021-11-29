@@ -1,0 +1,42 @@
+.nav {
+  height: 70px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.nav .searchBar input {
+  position: relative;
+  height: 45%;
+  width: 90%;
+  margin-top: 17px;
+  border-radius: 20px;
+  border-color: cornflowerblue;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.nav .searchBar .searchIcon{
+  position: absolute;
+  top: 25px;
+  padding-left: 10px;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.nav .searchBar input::placeholder{
+    padding-left: 30px;
+    color: red;
+}
+
+.nav .categoriesDiv{
+  position: relative;
+}
+.nav .categoriesDiv .categories{
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 330px;
+  background-color: white;
+  height: 40px;
+  border: none;
+  font-size: 29px;
+}

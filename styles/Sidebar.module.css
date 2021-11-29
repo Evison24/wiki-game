@@ -1,0 +1,9 @@
+.sidebarContainer{
+  font-size: 30px;
+  
+}
+
+.sidebarContainer .sidebarContent{
+  list-style: none;
+  line-height: 70px;
+}
