@@ -8,12 +8,12 @@ const GameCard = ({data}) => {
     <div className={gameCardStyles.gameCardContainer}>
       
       <Image
-        src={myLogo}
+        src={data.background_image}
         alt="Wiki-Game logo"
         height={200}
         width={300} 
       />
-      <h2>Name: {data.name}</h2>
+      <h2>{data.name}</h2>
       <h3>Released: {data.released}</h3>
       <h3>Rating: {data.rating}</h3>
 

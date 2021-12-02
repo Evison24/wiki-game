@@ -11,15 +11,24 @@
 }
 
 .mainPageContainer .mainPageContent{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  grid-gap: 10px;
+  display: flex;
+  grid-gap: 40px;
+  flex-wrap: wrap;
+}
+.mainPageContainer h1 {
+  color: white;
 }
 
-.mainPageContainer .mainPageContent .title{
-  background-color: red;
+.mainPageContainer .wiki{
+  color: red;
+}
+.mainPageContainer .game{
+  color: cornflowerblue;
 }
 
+.mainPageContainer .pagination {
+  height: 100px;
+  padding-top: 30px;
+}
 
 

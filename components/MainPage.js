@@ -1,14 +1,14 @@
 import mainPageStyles from '../styles/MainPage.module.css'
-import GameCard from './GameCard'
 import GameList from './GameList'
 
 const MainPage = () => {
   return (
     <div className={mainPageStyles.mainPageContainer}>
-      <div className={mainPageStyles.mainPageContainer.title}>
-        <h1>Welcome to <span className={mainPageStyles.wiki}>WIKI</span> <span>GAME</span></h1>
+      <div>
+        <h1>Welcome to <span className={mainPageStyles.wiki}>WIKI</span>
+         <span className={mainPageStyles.game}>GAME</span></h1>
       </div>
-      <div >
+      <div>
         <GameList />
       </div>
     </div>

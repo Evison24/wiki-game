@@ -17,28 +17,23 @@ const Nav = () => {
       <Image
         src={myLogo}
         alt="Wiki-Game logo"
-        width={100} 
-        height={70} 
+        width={180} 
+        height={130} 
       />
       </div>
       <div className={navStyles.searchBar}>
         <SearchOutlined className={navStyles.searchIcon}/>
         <input type='text' placeholder='Search for games...'></input>
       </div>
-      <div className={navStyles.categoriesDiv}>
-        <DropdownMenu.Root >
-          <DropdownMenu.Trigger className={navStyles.categories}><UnorderedListOutlined /></DropdownMenu.Trigger>
-
-          <DropdownMenu.Content >
-            <DropdownMenu.Item>Action</DropdownMenu.Item>
-            <DropdownMenu.Item>Fantasy</DropdownMenu.Item>
-            <DropdownMenu.Item>Shooting</DropdownMenu.Item>
-            <DropdownMenu.Item>Open World</DropdownMenu.Item>
-            <DropdownMenu.Item>Racing</DropdownMenu.Item>
-          </DropdownMenu.Content>
-          
-        </DropdownMenu.Root>
+        <div className={navStyles.rightLogo}>
+          <Image
+            src={myLogo}
+            alt="Wiki-Game logo"
+            width={180} 
+            height={130} 
+          />
       </div>
+     
       
   </nav>
       

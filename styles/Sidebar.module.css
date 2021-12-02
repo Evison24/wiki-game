@@ -6,4 +6,10 @@
 .sidebarContainer .sidebarContent{
   list-style: none;
   line-height: 70px;
+  width: 300px;
+  
+}
+
+.sidebarContainer .sidebarContent h3{
+  color: red;
 }

@@ -1,13 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import background from '../images/background.jpg'
 import styles from '../styles/Home.module.css'
 import 'antd/dist/antd.css';
 import Nav from '../components/Nav'
 import Sidebar from '../components/Sidebar'
 import MainPage from '../components/MainPage';
-import GameCard from '../components/GameCard';
-import Games from './games';
-import GameList from '../components/GameList';
+
 
 
 export default function Home() {
@@ -21,10 +20,10 @@ export default function Home() {
       </Head>
       
       <Nav />
-      <main className={styles.main}>
+      <div className={styles.main}>
       <Sidebar />
       <MainPage />
-      </main>
+      </div>
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
